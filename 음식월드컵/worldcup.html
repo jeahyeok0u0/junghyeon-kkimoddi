@@ -5,41 +5,38 @@
 	<title>음식월드컵</title>
 	<meta charset="utf-8">
 	<style>
-		img {
-			width: 400px;
-			height: 400px;
+		img{
+			width:450px;
+			height:450px;
+			
 		}
-
 		* {
 			margin: 0;
 			padding: 0;
 		}
-
-		body {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-		}
-
 		.header {
 			width: 100%;
 			background: #3b5999;
 			color: #ffffff;
 			text-align: center;
-			padding: 1rem;
+			font-size: 30px;
+			padding: 5px;
+		}
+		.foodimg{
+			display: flex;
+			justify-content: center;
 		}
 	</style>
 </head>
 
 <body>
-	<center>
-		<div class="header">음식월드컵</div>
-		<p id="cal"></p>
-		<img id="image" onclick="change(0)">
-		<img id="images" onclick="change(1)">
-		<script src="/음식월드컵/food-js.js"></script>
-	</center>
+	<div class="header">음식월드컵</div>
+	<p id="cal"></p>
+	<div class="foodimg">
+		<img id="image" onclick="change(0)" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+	    <img id="images" onclick="change(1)" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+	</div>
+	<script src="/음식월드컵/woldcup-js.js"></script>
 </body>
 
 </html>

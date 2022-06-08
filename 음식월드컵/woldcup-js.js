@@ -5,7 +5,18 @@ var cnt=0;
 var num=0;
 var sNum = 0;
 var cnt2=0;
-	
+
+function zoomIn(event) {
+    event.target.style.transform = "scale(1.2)"; //1.2배 확대
+    event.target.style.zIndex = 1;
+    event.target.style.transition = "all 0.5s";// 속도
+  }
+function zoomOut(event) {
+    event.target.style.transform = "scale(1)";
+    event.target.style.zIndex = 0;
+    event.target.style.transition = "all 0.5s";
+}
+
 function show(){
 	for(i=0; i<16; i++)
 	{

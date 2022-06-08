@@ -1,4 +1,3 @@
-
 function zoomIn(event) {
     event.target.style.transform = "scale(1.2)"; //1.2배 확대
     event.target.style.zIndex = 1;
