@@ -1,72 +1,104 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
-    width: 100%;
-    background: #3b5999;
-    color: #ffffff;
-    display: flex;
-    padding: 1rem;
+  width: 100%;
+  background: #3b5999;
+  color: #ffffff;
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 50px;
 }
-.logo{
-    margin-left: auto;
-    width: 80px;
-    height: 80px;
-    background-color: none;
+.logo {
+  margin-left: auto;
+  width: 80px;
+  height: 80px;
+  background-color: none;
 }
 .title {
-    margin-left: auto;
-    font-size: 50px;
+  margin-left: auto;
+  font-size: 50px;
+}
+.logout {
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 20px;
+  font-style: oblique;
+  margin-top: 10px;
+  margin: auto;
+}
+.select-game {
+  width: auto;
+  margin: 50px;
+  display: flex;
+}
 
+.row-container {
+  width: 80%;
+  padding: 0 40px;
 }
-.logout{
-    width: 120px;
-    height: 40px;
-    cursor: pointer;
-    font-size: 20px;
-    font-style: oblique;
-    margin-top: 10px;
-    margin: auto;
+
+.game-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  height: 500px;
+  overflow: hidden;
 }
-.select-game{
-    width: auto;
-    margin: 50px;
-    display: flex;
+
+.game-img-wrapper img {
+  display: block;
+  object-fit: cover;
 }
-.typing-game{
-    font-size: 50px;
-    color: #3b5999;
-    display: flex;
+
+.game-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
-.food-worldcup{
-    font-size: 50px;
-    color: #3b5999;
-    margin-left: 170px;
-    display: flex;
+
+.game-title {
+  text-align: center;
 }
-.gameimg {
-    width: 90%;
-    display:flex;
-    flex-wrap:wrap;
-    margin-left: 400px;
-    
+
+.game-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  overflow: hidden;
 }
-.gameimg img {
-    width:calc(33.333% - 10px);
-    margin:0 50px 50px 0;
-    display: flex;
-    
+
+.game-title {
+  font-size: 50px;
+  color: #3b5999;
+  margin-bottom: 20px;
 }
-.gameimg img:nth-of-type(3n),
-.gameimg img:last-child {
-    margin-right:0;
+
+@media screen and (max-width: 768px) {
+  .game-container {
+    flex-direction: column;
+  }
+
+  .game-card {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .game-img-wrapper {
+    overflow: hidden;
+  }
 }
