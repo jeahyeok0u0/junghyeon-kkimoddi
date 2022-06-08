@@ -57,8 +57,13 @@ function change(n){
 	}
 	else if (cnt2==18){
 		alert("끝");
+<<<<<<< HEAD
 		document.getElementById('images').style.display="none";
 		return;
+=======
+		document.getElementById('images')
+		location.href="result.html";
+>>>>>>> b6826736c9346628836b8495c142aabbb3f5c21d
 	}
 }
 document.getElementById('cal').innerHTML=text;
