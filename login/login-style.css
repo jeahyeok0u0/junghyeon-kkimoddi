@@ -2,23 +2,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 250px;
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
-    width: 200px;
+    height: 700px;
+    width: 700px;
     flex-direction: column;
-    border: 1px solid lightgrey;
+    border: 1px solid #00008B;
+    background-color: #ADD8E6;
 }
 
-.logo {
+img {
     margin-top: 0px;
     margin-bottom: 40px;
 }
 
 #login {
     width: 100%;
-    background-color: skyblue;
+    background-color: #0000CD;
     border-color: transparent;
     color: white;
 }
