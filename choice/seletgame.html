@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Typing Game</title>
+    <title>G.J games</title>
     <link rel="stylesheet" href="/choice/select game-style.css">
     
 </head>
 <body>
     <div class="header">
+        <img class="logo" src="logo.png">
         <div class="title">Select Game!</div>
-        <div class="logout">Log out</div>
+        <button class="logout">Log out</div>
     </div>
     <div class="select-game">
         <div class="typing-game">Typing game</div>
@@ -19,10 +20,9 @@
     </div>
     
     <div class="gameimg">
-        <img alt="" src="typingGame.jpg" border="2">
-        <img alt="" src="foodwordcup.png" border="2">
+        <img alt="" src="typingGame.jpg" border="2"  onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+        <img alt="" src="foodwordcup.png" border="2" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
     </div>
-    
-    
+    <script src="/choice/select game-js.js"></script>
 </body>
 </html>

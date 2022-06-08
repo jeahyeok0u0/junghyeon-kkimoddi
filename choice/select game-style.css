@@ -14,40 +14,50 @@ body {
     width: 100%;
     background: #3b5999;
     color: #ffffff;
-    text-align: center;
+    display: flex;
     padding: 1rem;
 }
+.logo{
+    margin-left: auto;
+    width: 80px;
+    height: 80px;
+    background-color: none;
+}
 .title {
+    margin-left: auto;
     font-size: 50px;
+
 }
 .logout{
-    font-size: 30px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    font-style: oblique;
+    margin-top: 10px;
+    margin: auto;
 }
 .select-game{
-    width: 40%;
+    width: auto;
     margin: 50px;
     display: flex;
 }
 .typing-game{
-    font-size: 20px;
+    font-size: 50px;
     color: #3b5999;
-    flex: 1;
+    
     
 }
 .food-worldcup{
-    font-size: 20px;
+    font-size: 50px;
     color: #3b5999;
-    flex: 1;
-    margin-left: 330px;
+    margin-left: 170px;
 }
 .gameimg {
     width: 90%;
     display:flex;
     flex-wrap:wrap;
-    
     margin-left: 400px;
-    
-
     
 }
 .gameimg img {
