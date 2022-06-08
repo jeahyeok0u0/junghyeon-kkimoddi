@@ -17,6 +17,12 @@ body {
     text-align: center;
     padding: 1rem;
 }
+.title {
+    font-size: 50px;
+}
+.logout{
+    font-size: 30px;
+}
 .select-game{
     width: 40%;
     margin: 50px;
@@ -38,7 +44,7 @@ body {
     width: 90%;
     display:flex;
     flex-wrap:wrap;
-    align-items:flex-start;
+    
     margin-left: 400px;
     
 
