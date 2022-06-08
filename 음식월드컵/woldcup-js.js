@@ -57,7 +57,8 @@ function change(n){
 	}
 	else if (cnt2==18){
 		alert("끝");
-		document.getElementById('images').style.display="none";
+		document.getElementById('images')
+		location.href="result.html";
 	}
 	
 	
