@@ -33,7 +33,7 @@ function showImg(num){
 }
 
 function change(n){
-	if(cnt2<19)
+	if(cnt2<18)
 	{
 		cnt++;
 		if(n == 0)
@@ -55,11 +55,11 @@ function change(n){
 			
 		}
 	}
+	else if (cnt2==18){
+		alert("끝");
+		document.getElementById('images').style.display="none";
+	}
 	
 	
-}
-function result(){
-	alert("display : 공백");
-	document.getElementById('images').style.display="";
 }
 document.getElementById('cal').innerHTML=text;
