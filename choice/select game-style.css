@@ -64,7 +64,6 @@ body {
     width:calc(33.333% - 10px);
     margin:0 50px 50px 0;
     display: flex;
-    
 }
 .gameimg img:nth-of-type(3n),
 .gameimg img:last-child {
