@@ -28,7 +28,7 @@ body {
   margin-left: auto;
   font-size: 50px;
 }
-.logout {
+#logout {
   width: 120px;
   height: 40px;
   cursor: pointer;
@@ -61,6 +61,11 @@ body {
   display: block;
   object-fit: cover;
   
+}
+
+#typingGameimg {
+  border-width: 10ch;
+  border-color: #3b5999;
 }
 
 #foodworldcupimg {

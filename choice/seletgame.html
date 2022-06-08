@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>:: G J games :: 종합게임저장소 ::</title>
+    <title>:: K J games :: 종합게임저장소 ::</title>
     <link rel="stylesheet" href="/choice/select game-style.css">
     
 </head>
@@ -12,7 +12,7 @@
     <header class="header">
         <img class="logo" src="logo.png">
         <div class="title">Select Game!</div>
-        <button class="logout">Log out</div>
+        <button id="logout" onclick="document.location.href='/login/login.html'">Log out</div>
     </header>
 
     <!-- 같이 움직이고 싶게 하고 싶은거는 같은 div 안에 묶여야함 -->
@@ -21,7 +21,7 @@
             <div class="game-card">
                 <h2 class="game-title">Typing game</h2>
                 <div class="game-img-wrapper">
-                    <img alt="" src="typingGame.jpg" border="2"  onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                    <img id="typingGameimg" alt="" src="typingGame.jpg" border="2"  onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
                 </div>
             </div>
             <div class="game-card">
