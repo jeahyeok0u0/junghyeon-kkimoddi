@@ -45,13 +45,13 @@ body {
 .typing-game{
     font-size: 50px;
     color: #3b5999;
-    
-    
+    display: flex;
 }
 .food-worldcup{
     font-size: 50px;
     color: #3b5999;
     margin-left: 170px;
+    display: flex;
 }
 .gameimg {
     width: 90%;
@@ -63,10 +63,10 @@ body {
 .gameimg img {
     width:calc(33.333% - 10px);
     margin:0 50px 50px 0;
+    display: flex;
     
 }
 .gameimg img:nth-of-type(3n),
 .gameimg img:last-child {
     margin-right:0;
 }
-
