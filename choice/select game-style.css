@@ -28,7 +28,7 @@ body {
     font-size: 50px;
 
 }
-.logout{
+#logout{
     width: 120px;
     height: 40px;
     cursor: pointer;
