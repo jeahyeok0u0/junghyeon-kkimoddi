@@ -5,7 +5,7 @@ var cnt=0;
 var num=0;
 var sNum = 0;
 var cnt2=0;
-
+show(0);
 function zoomIn(event) {
     event.target.style.transform = "scale(1.2)"; //1.2배 확대
     event.target.style.zIndex = 1;
@@ -25,16 +25,15 @@ function show(){
 	images.sort(function(a,b){return 0.5- Math.random()});
 	showImg(num);
 }
-show(0);
-function showImg(num){
 
+function showImg(num){
 	document.getElementById('image').src=images[num];
 	document.getElementById('images').src=images[num+1];
 	cnt2++;
 }
 
 function change(n){
-	if(cnt2<17)
+	if(cnt2<19)
 	{
 		cnt++;
 		if(n == 0)
@@ -53,8 +52,14 @@ function change(n){
 			num = 0;
 			sNum = 0;
 			showImg(num);
+			
 		}
 	}
-
+	
+	
+}
+function result(){
+	alert("display : 공백");
+	document.getElementById('images').style.display="";
 }
 document.getElementById('cal').innerHTML=text;
