@@ -8,3 +8,7 @@ function zoomOut(event) {
     event.target.style.zIndex = 0;
     event.target.style.transition = "all 0.5s";
 }
+
+logout.addEventListener('click', () => {
+  alert('로그아웃 되었습니다.')
+})
