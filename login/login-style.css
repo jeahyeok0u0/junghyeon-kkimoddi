@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 200px;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+}
+
+.logo {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+#login {
+    width: 100%;
+    background-color: skyblue;
+    border-color: transparent;
+    color: white;
+}
+
+.account {
+    display: block;
+    margin-bottom: 3px;
+    padding: 3px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+#alert {
+    border-color: transparent;
+}

@@ -3,10 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <title>:: 종합게임저장소 ::</title>
+        <link rel="stylesheet" href="/login/login-style.css">
     </head>
     <body>
-        <h1>로그인</h1>
-        <input type="text">
-        <input type="password">
+        <div class="main">
+            <h1 class="logo">로그인</h1>
+            <div class="container">
+                <input type="text" class="account" placeholder="ID" id="id">
+                <input type="password" class="account" placeholder="PW" id="password">
+                <button id="login" class="account">로그인</button>
+                <p id="alert" class="account"></p>
+            </div>
+        </div>
+        <script src="login.js"></script>
     </body>
 </html>
