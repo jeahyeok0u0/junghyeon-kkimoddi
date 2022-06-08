@@ -9,24 +9,30 @@
     
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <img class="logo" src="logo.png">
         <div class="title">Select Game!</div>
-        <button id="logout" onclick="document.location.href='/login/login.html'">Log out</div>
-    </div>
-    <div class="select-game">
-        <div class="typing-game">Typing game</div>
-        <div class="food-worldcup">Food worldcup</div>
+        <button class="logout">Log out</div>
+    </header>
+
+    <!-- 같이 움직이고 싶게 하고 싶은거는 같은 div 안에 묶여야함 -->
+    <div class="row-container">
+        <div class="game-container">
+            <div class="game-card">
+                <h2 class="game-title">Typing game</h2>
+                <div class="game-img-wrapper">
+                    <img alt="" src="typingGame.jpg" border="2"  onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                </div>
+            </div>
+            <div class="game-card">
+                <h2 class="game-title">Food world cup</h2>
+                <div class="game-img-wrapper">
+                    <img alt="" src="foodwordcup.png" border="2" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                </div>
+            </div>
+        </div>
     </div>
     
-    <div class="gameimg">
-        <a href="/typingGame/typingGame.html">
-            <img alt="" src="typingGame.jpg" border="2"  onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
-        </a>
-        <a href="/음식월드컵/worldcup.html">
-            <img alt="" src="foodwordcup.png" border="2" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
-        </a>
-        </div>
     <script src="/choice/select game-js.js"></script>
 </body>
 </html>
