@@ -58,6 +58,8 @@ function change(n){
 	else if (cnt2==18){
 		alert("끝");
 		document.getElementById('images')
+		HTMLImageElement.src = images;
+		let src = "result.src";
 		location.href="result.html";
 	}
 }
